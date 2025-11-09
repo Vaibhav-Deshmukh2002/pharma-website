@@ -213,20 +213,26 @@ font-size: 20px;
   margin: 30px 0; /* optional spacing */
 }
 
-.view-all .btn-shop {
-  padding: 10px 25px;
-  background-color: #ffc107;
-  color: #000;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+.btn-shop {
+  padding: 12px 30px;
+  background-color: #ff6b6b; /* button color */
+  color: white;
+  font-size: 16px;
   font-weight: bold;
-  transition: background 0.3s ease;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease; /* smooth hover */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.view-all .btn-shop:hover {
-  background-color: #e0a800;
+/* Hover effect */
+.btn-shop:hover {
+  background-color: #ff4b4b; /* darker shade */
+  transform: translateY(-3px); /* slight lift */
+  box-shadow: 0 6px 10px rgba(0,0,0,0.2);
 }
+
 
 
 /* ------------------------ POPULAR PRODUCTS ------------------------ */
