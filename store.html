@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pharma Store</title>
+
 <link rel="stylesheet" href="store.css">
+
+    <link rel="stylesheet" href="store.css">
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 <body>
@@ -19,6 +23,7 @@
 
     <!-- Navbar Links -->
     <nav class="navbar-menu">
+ 
     <ul class="navbar-nav">
         <li><a href="index.html" class="nav-link">Home</a></li>
         <li><a href="store.html" class="nav-link">Store</a></li>
@@ -28,124 +33,124 @@
 </nav>
 
 
+      
+
     <!-- ✅ Search Box + Icon + Cart -->
     <div class="navbar-search">
-      <input type="search" placeholder="Search">
+      <input type="search" placeholder="Search products">
       <button type="submit"><i class="bi bi-search"></i></button>
       <a href="cart.html" class="cart-btn"><i class="bi bi-cart"></i></a>
     </div>
   </div>
 </header>
 
+<!-- Hero Section -->
+<section class="hero">
+    <div class="hero-text">
+        <p>Your Health, Our Priority</p>
+        <h1>Pharma Store</h1>
+        <button class="btn-shop">Shop Now</button>
+    </div>
+</section>
 
-
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-text">
-            <p>Your Health, Our Priority</p>
-            <h1>Pharma Store</h1>
-            <button class="btn-shop">Shop Now</button>
+<!-- Popular Products -->
+<section class="popular-products">
+    <h2 class="section-title">Popular Products</h2>
+    
+    <div class="products-row">
+        <div class="product-card">
+            <img src="https://themewagon.github.io/pharma/images/product_01.png" alt="Bioderma">
+            <h3>Bioderma</h3>
+            <p>Gentle skincare for healthy, glowing skin. $55.00</p>
         </div>
-    </section>
-
-    <!-- Popular Products -->
-    <section class="popular-products">
-        <h2 class="section-title">Popular Products</h2>
-        
-        <div class="products-row">
-            <div class="product-card">
-                <img src="https://themewagon.github.io/pharma/images/product_01.png" alt="Bioderma">
-                <h3>Bioderma</h3>
-                <p>High-quality skincare. Price: $55.00</p>
-            </div>
-            <div class="product-card">
-                <img src="https://themewagon.github.io/pharma/images/product_02.png" alt="Chanca Piedra">
-                <h3>Chanca Piedra</h3>
-                <p>Supports kidney health. Price: $70.00</p>
-            </div>
-            <div class="product-card">
-                <img src="https://themewagon.github.io/pharma/images/product_03.png" alt="Umcka Cold Care">
-                <h3>Umcka Cold Care</h3>
-                <p>Relieves cold symptoms. Price: $120.00</p>
-            </div>
+        <div class="product-card">
+            <img src="https://themewagon.github.io/pharma/images/product_02.png" alt="Chanca Piedra">
+            <h3>Chanca Piedra</h3>
+            <p>Supports kidney function and detox. $70.00</p>
         </div>
-
-        <div class="products-row">
-            <div class="product-card">
-                <img src="https://themewagon.github.io/pharma/images/product_04.png" alt="Cetyl Pure">
-                <h3>Cetyl Pure</h3>
-                <p>Supports cardiovascular health. Price: $20.00</p>
-            </div>
-            <div class="product-card">
-                <img src="https://themewagon.github.io/pharma/images/product_05.png" alt="CLA Core">
-                <h3>CLA Core</h3>
-                <p>Weight management supplement. Price: $38.00</p>
-            </div>
-            <div class="product-card">
-                <img src="https://themewagon.github.io/pharma/images/product_06.png" alt="Poo Pourri">
-                <h3>Poo Pourri</h3>
-                <p>Bathroom odor eliminator. Price: $38.00</p>
-            </div>
+        <div class="product-card">
+            <img src="https://themewagon.github.io/pharma/images/product_03.png" alt="Umcka Cold Care">
+            <h3>Umcka Cold Care</h3>
+            <p>Relieves cold and flu symptoms quickly. $120.00</p>
         </div>
+    </div>
 
-        <div class="view-all">
-            <button class="btn-shop">View All Products</button>
+    <div class="products-row">
+        <div class="product-card">
+            <img src="https://themewagon.github.io/pharma/images/product_04.png" alt="Cetyl Pure">
+            <h3>Cetyl Pure</h3>
+            <p>Supports heart and cardiovascular health. $20.00</p>
         </div>
-    </section>
+        <div class="product-card">
+            <img src="https://themewagon.github.io/pharma/images/product_05.png" alt="CLA Core">
+            <h3>CLA Core</h3>
+            <p>Natural aid for weight management. $38.00</p>
+        </div>
+        <div class="product-card">
+            <img src="https://themewagon.github.io/pharma/images/product_06.png" alt="Poo Pourri">
+            <h3>Poo Pourri</h3>
+            <p>Eliminates bathroom odors instantly. $38.00</p>
+        </div>
+    </div>
 
-    <!-- Featured Products -->
-    <section class="featured-products">
-        <div class="featured-card">
-            <div class="featured-text">
-                <h2>Pharma Products</h2>
-                <p>High-quality supplements made from natural ingredients to boost your immunity and health.</p>
-            </div>
-            <div class="featured-img">
-                <img src="https://imgs.search.brave.com/_V0_n0Y9kJ7KhwB3F9evbh2lGLHouV8J5ZGubDMunME/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3BuZy1kcnVn/cy1hbnRpZGVwcmVz/c2FudHMtcm90YXRl/LTM3OC5wbmc" alt="">
-            </div>
-        </div>
+    <div class="view-all">
+        <button class="btn-shop">View All Products</button>
+    </div>
+</section>
 
-        <div class="featured-card">
-            <div class="featured-img">
-                <img src="https://imgs.search.brave.com/69P_Leqe2cvY6RZuV5DWdLN3GdNipxewO5U0bf1IT1s/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3dvbWFuLWRv/Y3Rvci1wbmctaGQt/cXVhbGlmaWVkLWRv/Y3RvcnMtNTIzLnBu/Zw" alt="">
-            </div>
-            <div class="featured-text">
-                <h2>Vitamins & Minerals</h2>
-                <p>Daily essential vitamins and minerals to support energy, immunity, and overall well-being.</p>
-            </div>
+<!-- Featured Products -->
+<section class="featured-products">
+    <div class="featured-card">
+        <div class="featured-text">
+            <h2>Pharma Products</h2>
+            <p>Premium supplements crafted with natural ingredients to enhance immunity and overall wellness.</p>
         </div>
-    </section>
-    <!-- Info Section -->
-    <section class="info-section">
-        <div class="info-card">
-            <h3>About Us</h3>
-            <p>We provide the best healthcare products to improve your health and wellness.</p>
+        <div class="featured-img">
+            <img src="https://imgs.search.brave.com/_V0_n0Y9kJ7KhwB3F9evbh2lGLHouV8J5ZGubDMunME/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3BuZy1kcnVn/cy1hbnRpZGVwcmVz/c2FudHMtcm90YXRl/LTM3OC5wbmc" alt="">
         </div>
-        <div class="info-card">
-            <h3>Quick Links</h3>
-            <p>Supplements, Vitamins, Diet & Nutrition, Tea & Coffee</p>
-        </div>
-        <div class="info-card">
-            <h3>Contact Info</h3>
-            <p>203 Fake St, San Francisco, CA | +2 392 3929 210 | email@pharma.com</p>
-        </div>
-    </section>
+    </div>
 
-    <!-- Footer -->
-    <footer class="footer">
-        <p class="text-center">Copyright © 2025 All rights reserved | Made with ❤️ by Pharma</p>
-    </footer>
+    <div class="featured-card">
+        <div class="featured-img">
+            <img src="https://imgs.search.brave.com/69P_Leqe2cvY6RZuV5DWdLN3GdNipxewO5U0bf1IT1s/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9wbHVz/cG5nLmNvbS9pbWct/cG5nL3dvbWFuLWRv/Y3Rvci1wbmctaGQt/cXVhbGlmaWVkLWRv/Y3RvcnMtNTIzLnBu/Zw" alt="">
+        </div>
+        <div class="featured-text">
+            <h2>Vitamins & Minerals</h2>
+            <p>Essential daily nutrients to boost energy, immunity, and vitality.</p>
+        </div>
+    </div>
+</section>
 
-    <!-- JS for Hamburger Menu -->
-    <script>
-        const toggle = document.querySelector('.navbar-toggle');
-        const menu = document.querySelector('.navbar-menu');
+<!-- Info Section -->
+<section class="info-section">
+    <div class="info-card">
+        <h3>About Us</h3>
+        <p>Committed to delivering reliable healthcare products for your wellbeing.</p>
+    </div>
+    <div class="info-card">
+        <h3>Quick Links</h3>
+        <p>Supplements, Vitamins, Nutrition, Health Drinks</p>
+    </div>
+    <div class="info-card">
+        <h3>Contact Info</h3>
+        <p>203 Fake St, San Francisco, CA | +2 392 3929 210 | info@pharma.com</p>
+    </div>
+</section>
 
-        toggle.addEventListener('click', () => {
-            menu.classList.toggle('active');
-        });
-    </script>
+<!-- Footer -->
+<footer class="footer">
+    <p class="text-center">Copyright © 2025 All rights reserved | Made with ❤️ by Pharma</p>
+</footer>
+
+<!-- JS for Hamburger Menu -->
+<script>
+    const toggle = document.querySelector('.navbar-toggle');
+    const menu = document.querySelector('.navbar-menu');
+
+    toggle.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    });
+</script>
 
 </body>
-
 </html>
